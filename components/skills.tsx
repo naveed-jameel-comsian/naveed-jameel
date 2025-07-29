@@ -22,6 +22,8 @@ const skillCategories = [
       "Ant Design",
       "Material UI",
       "Tailwind CSS",
+      "Computer Vision",
+      
     ],
   },
   {
@@ -29,13 +31,13 @@ const skillCategories = [
     icon: <Server className="h-6 w-6" />,
     skills: ["Node.js", "Express.js", "Fasitfy", "Nest.js", "Stripe", 
               "Twillio", "socket.io", "Microservices", "RabbitMQ", "Kafka",
-              "BullMq", "RESTful APIs", "WebSockets",
+              "BullMq", "RESTful APIs", "WebSockets", "Python", "RAG", "AI/ML",
     ],
   },
   {
     title: "Database",
     icon: <Database className="h-6 w-6" />,
-    skills: ["MySQL", "PostgreSQL", "MongoDB"],
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "ChromaDB", "Pinecone", "QdrantDB"],
   },
   {
     title: "DevOps & Tools",

@@ -8,15 +8,15 @@ import { Briefcase, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    title: "FullStack Developer",
-    company: "Thingtrax",
+    title: "Full Stack Developer",
+    company: "Upwork",
     location: "Lahore, Pakistan",
-    period: "Apr 2025 - Present",
+    period: "Jun 2024 - Present",
     description: [
-      "Currently working as a Full Stack Developer, contributing to the development and maintenance of web applications.",
-      "Utilizing expertise in React.js, Node.js, and related technologies to deliver high-quality software solutions.",
-      "Collaborating with cross-functional teams to implement new features and improve existing functionality.",
-      "Participating in the full software development lifecycle from planning to deployment.",
+      "Top Rated Upwork freelancer with a 90% job success rate.",
+      "Developing and maintaining scalable web applications using React.js, Node.js, and RESTful APIs.",
+      "Delivering end-to-end solutions, from frontend UI/UX to backend logic and database integration.",
+      "Successfully completed multiple projects across industries like eCommerce, SaaS, EdTech, and AI."
     ],
   },
   {
@@ -28,12 +28,7 @@ const experiences = [
       "Provided prompt solutions and proactive troubleshooting support to swiftly resolve subtle and complex issues.",
       "Documented all supported systems and applications to effectively train new and existing team members.",
       "Determined areas for improvements by periodically monitoring current company systems to consistently boost business efficiency.",
-      "Established and utilized strategic methodologies to efficiently analyze client's database and develop mapping specifications.",
-      "Led onshore and offshore application development teams to verify adherence to quality standards while ensuring requirements are met.",
-      "Proficiently troubleshot simple and complex technological issues for different assigned projects, achieving over 95% customer satisfaction rate.",
-      "Enhanced application features to effectively fix bugs and optimize overall performance, reliability, and efficiency.",
-      "Utilized software engineering expertise to develop products throughout the software lifecycle, from ideation through to deployment.",
-    ],
+      ],
   },
   {
     title: "MERN Stack Developer",
@@ -44,11 +39,7 @@ const experiences = [
       "Built highly scalable Nodejs Monorepo projects to run on AWS ECS (Elastic Container Service).",
       "Managed AWS ECS for code deployments under different environments.",
       "Implemented TDD (Test Driven Development) using E2E for many projects.",
-      "Created reusable node packages to be used in different projects and managed them via Lerna.js.",
-      "Implemented code pipelines using bitbucket pipelines for CI/CD.",
-      "Managed different code pipelines for auto deployments on AWS.",
-      "Implemented ElasticSearch by connecting it with AWS RDS.",
-    ],
+      ],
   },
   {
     title: "Associate MERN Stack Developer",
@@ -59,9 +50,7 @@ const experiences = [
       "Played a pivotal role in developing and implementing robust web applications using the MERN stack.",
       "Collaborated with cross-functional teams to create seamless user experiences and deliver high-quality products.",
       "Modified HTML, JavaScript, and CSS web pages to optimize page performance for faster loading and browsing.",
-      "Utilized strategic engineering procedures to maintain and improve company's point of sales system features.",
-      "Designed and executed a brand-new customer resolution management tool through ReactJS and NextJS to efficiently monitor, encode, and resolve customer questions/concerns.",
-    ],
+      ],
   },
 ]
 
@@ -126,7 +115,7 @@ export default function Experience() {
                   </div>
 
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                    {exp.description.slice(0, 3).map((item, i) => (
+                    {exp.description.slice(0, 5).map((item, i) => (
                       <li key={i} className="text-sm">
                         {item}
                       </li>
